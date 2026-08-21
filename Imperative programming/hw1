@@ -1,0 +1,27 @@
+'''Fundamental computer operations:
+1. a + b
+2. a = input("Enter a number: ")
+
+Compound computer operations:
+1. a = input("Enter a number: ")
+   b = input("Enter another number: ")
+   sum = int(a) + int(b)
+   print("The sum is:", sum)
+2. a = input("Enter a number: ")
+    b = input("Enter another number: ")
+    if int(a) > int(b):
+        print(a, "is greater than", b)
+    elif int(a) < int(b):
+        print(a, "is less than", b)
+    else:
+        print(a, "is equal to", b)
+
+Operation of a compiler:
+1. Lexing: breaks the source code into tokens.
+2. ParsingL builds a syntax tree.
+3. Semantic analysis: checks for semantic errors and ensures the code follows the language rules.
+4. Optimization: improves the code so it runs faster or uses fewer resources.
+5. Code generation: produces machine code or bytecode.
+
+Reason for the use of constants:
+- Readability: Constants give meaningful names to values, making the code easier to understand.'''
