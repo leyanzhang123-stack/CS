@@ -10,4 +10,4 @@ for i in range(1, 101):
         max2 = max1
         t = i
     bac2 = bac1
-print(f"The maximum increase in the number of bacteria is {-max2} and it occurs at hour {t}.")
+print(f"The maximum decrease in the number of bacteria is {-max2} and it occurs at hour {t}.")
