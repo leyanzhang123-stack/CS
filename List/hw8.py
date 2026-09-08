@@ -1,22 +1,23 @@
+a = True
+lst = []
 while a:
-    lst = []
     word = input("Enter a word (or ! to finish): ")
     if word == "!":
         a = False
+        break
     lst.append(word)
-lst_original = lst
-
+lst_original = lst.copy()
+ind = []
 a = True
 while a:
-    ind = []
     index = int(input("Enter an index: "))
     if index < 0:
         a = False
+        break
     ind.append(index)
-
-for i in range(len(ind)):
-    lst.remove(lst[ind[i]])
-
+    lst[index] = "!"
+while "!" in lst:
+    lst.remove("!")
 print(lst_original)
 print(ind)
 print(lst)
