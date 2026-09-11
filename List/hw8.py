@@ -6,6 +6,10 @@ while a:
         a = False
         break
     lst.append(word)
+''' 
+while(word := input("Enter a word (or ! to finish) != "!"):
+    lst.append(word)
+'''
 lst_original = lst.copy()
 ind = []
 a = True
@@ -21,3 +25,5 @@ while "!" in lst:
 print(lst_original)
 print(ind)
 print(lst)
+
+
