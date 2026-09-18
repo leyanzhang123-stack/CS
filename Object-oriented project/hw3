@@ -1,0 +1,11 @@
+1. varible types:
+    1. x - parameter
+    2. self.x - instance variable
+    3. x - local variable
+    4. x - variable
+
+2. static variable
+
+3. first one refers to class and the second one refers to a local variable..?
+
+4. first is called when creating an object and the second one is called when printing an object

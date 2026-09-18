@@ -1,0 +1,12 @@
+Difference:
+    class: defines a data type
+        e.g. integer
+    object: an instance of a class
+        e.g. 42, 15, 99
+
+UML relationships:
+1. transportation: train and passenger - aggregation
+2. school: student, course - dependency
+3. interior design: table, furniture - inheritance
+4. family: parent, child - aggregation
+5. library: book, literature - inheritance

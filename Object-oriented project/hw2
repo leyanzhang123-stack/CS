@@ -1,0 +1,3 @@
+product is a superclass of cold product which requires coldstorage
+storage contains product and is a superclass of cold storage which is a superclass of freezer and fridge
+
