@@ -5,5 +5,5 @@ if a < 0:
     print("Error: negative number")
 else:
     for i in range(a):
-            num *= b
-print(num)
+        num *= b
+    print(num)  # FIX: moved inside else, so an error does not also print 1

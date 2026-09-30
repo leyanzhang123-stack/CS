@@ -1,27 +1,24 @@
-'''Fundamental computer operations:
-1. a + b
-2. a = input("Enter a number: ")
+'''Fundamental computer operations (simple things the computer does directly):
+1. add two values
+2. compare two values
+(also: store a value)
+FIX: the handout's examples are "add, compare values, store".
 
-Compound computer operations:
-1. a = input("Enter a number: ")
-   b = input("Enter another number: ")
-   sum = int(a) + int(b)
-   print("The sum is:", sum)
-2. a = input("Enter a number: ")
-    b = input("Enter another number: ")
-    if int(a) > int(b):
-        print(a, "is greater than", b)
-    elif int(a) < int(b):
-        print(a, "is less than", b)
-    else:
-        print(a, "is equal to", b)
+Compound computer operations (complicated tasks built from many fundamental ones):
+1. find interesting patterns in data
+2. simulate actions in a football match
+(your own examples, e.g. reading two numbers and printing which one is bigger, are also compound)
 
-Operation of a compiler:
-1. Lexing: breaks the source code into tokens.
-2. ParsingL builds a syntax tree.
-3. Semantic analysis: checks for semantic errors and ensures the code follows the language rules.
-4. Optimization: improves the code so it runs faster or uses fewer resources.
-5. Code generation: produces machine code or bytecode.
+Operation of a compiler (handout order):
+1. Pre-processing: text manipulation (macros, comments).
+2. Lexical analysis: breaks the source code into tokens (identifiers, keywords).
+3. Parsing: turns tokens into phrases (if-then, assignment, ...), building a syntax tree.
+4. Semantic analysis: checks the meaning, e.g. variable types.
+5. Code generation: produces machine-level code.
+6. Optimisation: improves the code so it runs faster or uses fewer resources.
+7. Linking: combines multiple code files / libraries into one executable.
+FIX: pre-processing and linking were missing, and in the handout optimisation comes after code generation.
 
 Reason for the use of constants:
-- Readability: Constants give meaningful names to values, making the code easier to understand.'''
+- Readability: constants give meaningful names to values (NUM_MONTHS instead of 12), making the code easier to understand.
+- Also: the value is written in one place, so changing it later means changing only one line.'''

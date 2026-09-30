@@ -1,11 +1,17 @@
-1. varible types:
-    1. x - parameter
+1. variable types of each x:
+    1. x in __init__(self, x, y) - parameter
     2. self.x - instance variable
-    3. x - local variable
-    4. x - variable
+    3. x in origin() - local variable
+    4. x = origin() at the bottom - global variable
+    (FIX: the last one is a global variable, bound outside any function or class)
 
-2. static variable
+2. static variable (class variable) is not present
 
-3. first one refers to class and the second one refers to a local variable..?
+3. FIX: both refer to the class Point.
+    - "class Point:" defines the class
+    - "Point(0, 0)" calls the class's constructor to create a new Point object
+    (it is not a local variable)
 
-4. first is called when creating an object and the second one is called when printing an object
+4. FIX: say the exact location:
+    4.1 __init__() is called automatically at  x = Point(0, 0)  inside origin(), when the object is created
+    4.2 __str__() is called automatically at  print(x),  when print needs a string for the object

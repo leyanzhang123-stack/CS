@@ -6,7 +6,7 @@ def fun(x):
             flag = False
         else:
             i += 1
-    return flag, i
+    return flag  # FIX: the given function returns only flag
 
 x = [int(i) for i in input("Please give a list of integers separated by spaces: ").split()]
 print(fun(x))

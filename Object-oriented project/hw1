@@ -1,12 +1,23 @@
 Difference:
-    class: defines a data type
-        e.g. integer
-    object: an instance of a class
-        e.g. 42, 15, 99
+    class: defines a data type (template / blueprint with attributes and methods)
+        e.g. int, or Teacher
+    object: an instance of a class, with its own values
+        e.g. 42, 15, 99 are objects of int; wiltsu is an object of Teacher
 
-UML relationships:
-1. transportation: train and passenger - aggregation
-2. school: student, course - dependency
-3. interior design: table, furniture - inheritance
-4. family: parent, child - aggregation
-5. library: book, literature - inheritance
+UML relationships (FIX: the task asks for TWO possible relationships for each row):
+1. transportation: Train, Passenger
+   - aggregation: a Train has Passengers
+   - dependency: a Passenger uses a Train
+2. school: Student, Course
+   - dependency: a Student uses (takes) Courses
+   - aggregation: a Course has Students
+3. interior design: Table, Furniture
+   - inheritance: a Table is a Furniture
+   - aggregation: a set of Furniture (e.g. a dining set) contains a Table
+4. family: Parent, Child
+   - aggregation: a Parent has Children
+   - dependency: a Child uses (depends on) a Parent
+   (FIX note: not inheritance - a Child is not a type of Parent)
+5. library: Book, Literature
+   - inheritance: a Book is a (piece of) Literature
+   - aggregation: Literature (e.g. a collection) contains Books

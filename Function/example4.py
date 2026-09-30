@@ -1,7 +1,8 @@
 def read_floats(n):
     lst = []
     for i in range(n):
-        lst.append(float(input("Enter a float: ")))
+        # FIX: the task wants the prompt 'input value 1 out of 6:'
+        lst.append(float(input(f'input value {i + 1} out of {n}: ')))
     return lst
 
 n = int(input("Enter a nonnegative integer: "))

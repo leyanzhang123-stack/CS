@@ -15,4 +15,5 @@ if d != 0 and b:
 else:
     print(z, not b)
 
-#purpose: to find the largest power of L that divides N
+# FIX: this exercise only asks for a trace, not a purpose.
+# For N=139 and L=3 the output is: 3 True   (d: 46 -> 15 -> 5, z: 1 -> 2 -> 3, b: F -> T -> F)

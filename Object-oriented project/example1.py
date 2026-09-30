@@ -8,5 +8,5 @@ class Product:
     def __str__(self):
         return(f'product {self.description}, id {self.id_num} @{self.price}')
 
-p = Product('thinkpad', 0, 1299.95)
+p = Product('thinkpad', 1299.95)  # FIX: __init__ takes only description and price; id_num is set automatically
 print(p)

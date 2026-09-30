@@ -1,5 +1,5 @@
 bac1 = 0
-bac2 = 0
+bac2 = 120000  # FIX: previous value starts at t = 0: 0*(0-20)*(0-100) + 120000
 max1 = 0
 max2 = 0
 t = 0

@@ -5,4 +5,4 @@ if a < 0:
 else:
     for i in range(a):
         num *= 3
-print(num)
+    print(num)  # FIX: moved inside else, so an error does not also print 1

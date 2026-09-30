@@ -5,7 +5,7 @@ y = int(input("Please give y: "))
 
 while y > 0:
     if y % 2 == 0:
-        y = y / 2
+        y = y // 2  # FIX: 'div' is integer division; / turns y into a float
         x = x * x
     else:
         y = y - 1
