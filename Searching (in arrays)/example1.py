@@ -21,4 +21,4 @@ def time_search(seq_search, n, /, sort_data = False):
     return end - start
 
 array = [1, 2, 3, 4, 5, 6, 7]
-print(seq_search(, array), time_search(seq_search, 7))
+print(seq_search(key, array), time_search(seq_search, 7))
